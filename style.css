@@ -11,10 +11,11 @@ body {
   display: block;
   text-align: right;
 }
-.intro img {
+#intro-img {
   width: 100%;
 }
-.intro .more-inf {
+.intro, 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
