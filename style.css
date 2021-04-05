@@ -14,7 +14,8 @@ body {
 .intro img {
   width: 100%;
 }
-.intro .more-inf {
+.intro, 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -43,10 +44,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 button {
@@ -64,7 +67,8 @@ button:hover {
 
 /* Heading */
 
-h3,label[for = "new-task"] {
+h3,
+label[for = "new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -121,7 +125,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type = "text"] {
+li > input[type = "text"] {
   width: 226px;
 }
 button.delete img {
@@ -129,7 +133,8 @@ button.delete img {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.delete,
+img:hover {
   transform: rotateZ(0);
 }
 
