@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+#body-main {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -62,8 +62,8 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+.heading,
+#new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -142,11 +142,11 @@ li > label {
   display: none;
 }
 
-ul li.edit-mode input[type="text"] {
+.list-item.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+.list-item.edit-mode label {
   display: none;
 }

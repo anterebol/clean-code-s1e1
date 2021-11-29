@@ -9,7 +9,7 @@
         media="screen" 
         charset="utf-8">
   </head>
-  <body>
+  <body id="body-main">
     <div class="main-info">
       <img id="main-info-img" src="./eisenhower-matrix.jpg">
       <a class="main-info-link" 
@@ -19,13 +19,13 @@
     </div>
     <div class="main-page-element">
       <p id="new-todo">
-        <label for="new-task">Add Item</label>
+        <label for="new-task" id="new-task-label">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task" class="task" type="text">
           <button>Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
+      <h3 class="heading">Todo</h3>
       <ul id="incomplete-tasks">
         <li class="list-item">
           <input type="checkbox" class="placeholder-input-checkbox">
@@ -46,7 +46,7 @@
           </button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="heading">Completed</h3>
       <ul id="completed-tasks">
         <li class="list-item">
           <input type="checkbox" class="placeholder-input-checkbox" checked>
