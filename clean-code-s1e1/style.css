@@ -50,7 +50,7 @@ input,
 button{
   outline: none;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -59,7 +59,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -73,6 +73,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
+#new-task__input,
 .list-item__input-text {
   margin: 0;
   font-size: 18px;
@@ -114,7 +115,7 @@ li > * {
 .list-item__input-checkbox {
   margin: 0 10px;
 }
-li > label {
+.list-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
